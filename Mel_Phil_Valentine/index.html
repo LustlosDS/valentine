@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine</title>
+
+  <!-- CSS verbinden -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Philipp 💘<br>Willst du mein Valentin sein?</h1>
+
+  <button class="musicBtn" onclick="startMusic()">🎵 Musik starten</button><br>
+
+  <button id="yesBtn" onclick="yesClicked()">Ja 💕</button>
+  <button id="noBtn">Nein 🙈</button>
+</div>
+
+<audio id="bgMusic" loop>
+  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+
+<!-- JS verbinden -->
+<script src="script.js"></script>
+</body>
+</html>
